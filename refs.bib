@@ -13,7 +13,7 @@
 }
 
 @INPROCEEDINGS{Cooman+HQ-UAI08p,
-  ABSTRACT   = {When the initial and transition probabilities of a finite Markov chain in discrete time are not well known, we should perform a sensitivity analysis. This is done by considering as basic uncertainty models the so-called credal sets that these probabilities are known or believed to belong to, and by allowing the probabilities to vary over such sets. This leads to the definition of an imprecise Markov chain. We show that the time evolution of such a system can be studied very efficiently using so-called lower and upper expectations. We also study how the inferred credal set about the state at time n evolves as n goes to infinity: under quite unrestrictive conditions, it converges to a uniquely invariant credal set, regardless of the credal set given for the initial state. This leads to a non-trivial generalisation of the classical Perron–Frobenius Theorem to imprecise Markov chains.},
+  ABSTRACT   = {When the initial and transition probabilities of a finite Markov chain in discrete time are not well known, we should perform a sensitivity analysis. This is done by considering as basic uncertainty models the so-called credal sets that these probabilities are known or believed to belong to, and by allowing the probabilities to vary over such sets. This leads to the definition of an imprecise Markov chain. We show that the time evolution of such a system can be studied very efficiently using so-called lower and upper expectations. We also study how the inferred credal set about the state at time n evolves as n goes to infinity: under quite unrestrictive conditions, it converges to a uniquely invariant credal set, regardless of the credal set given for the initial state. This leads to a non-trivial generalisation of the classical Perron--Frobenius Theorem to imprecise Markov chains.},
   AUTHOR     = {Gert de Cooman and Filip Hermans and Erik Quaeghebeur},
   CROSSREF   = {McAllester+Myllymäki-UAI08b},
   EPRINT     = {1854/LU-427340},
@@ -62,4 +62,33 @@
   KEYWORDS   = {maximality; linear programming; maximinity; possibility distribution; vacuous prevision},
   PAGES      = {31},
   TITLE      = {Linear programming under vacuous and possibilistic uncertainty},
+}
+
+@XDATA{FLINS12,
+  EVENTDATE  = {2012-08-26/2012-08-29},
+  EVENTTITLE = {FLINS 2012},
+  VENUE      = {Istanbul, Turkey},
+}
+
+@PROCEEDINGS{Kahraman+KB-FLINS12b,
+  DATE       = {2012},
+  EDITOR     = {Cengiz Kahraman and Etienne E. Kerre and Faik Tunc Bozbura},
+  PUBLISHER  = {World Scientific},
+  SERIES     = {Proceedings Series on Computer Engineering and Information Science},
+  TITLE      = {Uncertainty Modeling in Knowledge Engineering and Decision Making},
+  TITLEADDON = {Proceedings of the 10th International FLINS Conference},
+  VOLUME     = {7},
+  XDATA      = {FLINS12},
+}
+
+@INPROCEEDINGS{Huntley+QSQCK-FLINS12p,
+  ABSTRACT   = {We present a software implementation of the methods for solving linear programming problems under uncertainty from previous work. Uncertainties about constraint parameters can be expressed as intervals or trapezoidal possibility distributions. The software computes the solutions for the optimality criteria maximin and maximality. For maximality with possibility distributions, only an approximate solution is obtained.},
+  AUTHOR     = {Nathan Huntley and Rolando Quiñones and Keivan Shariatmadar and Erik Quaeghebeur and Gert de Cooman and Etienne E. Kerre},
+  CROSSREF   = {Kahraman+KB-FLINS12b},
+  DOI        = {10.1142/9789814417747_0075},
+  EPRINT     = {1854/LU-3028486},
+  EPRINTTYPE = {hdl},
+  KEYWORDS   = {linear programming; uncertainty; maximin; maximality; implementation},
+  PAGES      = {465--470},
+  TITLE      = {Implementation of maximin and maximal solutions for linear programming problems under uncertainty},
 }
