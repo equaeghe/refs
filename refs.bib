@@ -447,6 +447,7 @@
 }
 
 @XDATA{UAI10,
+  EVENTDATE  = {2010-07-08/2010-07-11},
   EVENTTITLE = {UAI 2010},
   VENUE      = {Catalina Island, California},
 }
@@ -668,7 +669,7 @@
 
 @XDATA{SMPS06,
   EVENTDATE  = {2006-09},
-  EVENTTITLE = {SMPS 2006: International Workshop on Soft Methods in Probability and Statistics},
+  EVENTTITLE = {SMPS 2006},
   VENUE      = {Bristol, England},
 }
 
@@ -697,8 +698,9 @@
 }
 
 @XDATA{SMPS08,
-  EVENTDATE = {2008},
-  VENUE     = {Toulouse, France},
+  EVENTDATE  = {2008},
+  EVENTTITLE = {SMPS 2008},
+  VENUE      = {Toulouse, France},
 }
 
 @PROCEEDINGS{Dubois+LPGGH-SMPS08b,
@@ -725,7 +727,7 @@
 
 @XDATA{SMPS12,
   EVENTDATE  = {2012-10-04/2012-10-06},
-  EVENTTITLE = {Sixth International Conference on Soft Methods in Probability and Statistics},
+  EVENTTITLE = {SMPS 2012},
   VENUE      = {Konstanz, Germany},
 }
 
@@ -751,22 +753,32 @@
   TITLE      = {The CONEstrip algorithm},
 }
 
+@XDATA{NLMUA2011,
+  EVENTDATE  = {2011-09-07/2011-09-09},
+  EVENTTITLE = {NLMUA 2011},
+  VENUE      = {Beijing, PR China},
+}
+
+@PROCEEDINGS{Li+WOKMG-NLMUA11b,
+  EDITOR    = {Shoumei Li and Xia Wang and Yoshiaki Okazaki and Jun Kawabe and Toshiaki Murofushi and Li Guan},
+  PUBLISHER = {Springer},
+  SERIES    = {Advances in Intelligent and Soft Computing},
+  TITLE     = {Nonlinear Mathematics for Uncertainty and its Applications},
+  VOLUME    = {100},
+  YEAR      = {2011},
+  XDATA     = {NLMUA2011},
+}
+
 @INPROCEEDINGS{Quaeghebeur-NLMUA11p,
   ABSTRACT   = {Drawing inferences from general lower probabilities on finite possibility spaces usually involves solving linear programming problems. For some applications this may be too computationally demanding. Some special classes of lower probabilities allow for using computationally less demanding techniques. One such class is formed by the completely monotone lower probabilities, for which inferences can be drawn efficiently once their Mö bius transform has been calculated. One option is therefore to draw approximate inferences by using a completely monotone approximation to a general lower probability; this must be an outer approximation to avoid drawing inferences that are not implied by the approximated lower probability. In this paper, we discuss existing and new algorithms for performing this approximation, discuss their relative strengths and weaknesses, and illustrate how each one works and performs.},
   AUTHOR     = {Erik Quaeghebeur},
-  BOOKTITLE  = {Nonlinear Mathematics for Uncertainty and its Applications},
+  CROSSREF   = {Li+WOKMG-NLMUA11b},
   DOI        = {10.1007/978-3-642-22833-9_20},
-  EDITOR     = {Shoumei Li and Xia Wang and Yoshiaki Okazaki and Jun Kawabe and Toshiaki Murofushi and Li Guan},
   EPRINT     = {1854/LU-1864309},
   EPRINTTYPE = {hdl},
   KEYWORDS   = {outer approximation; lower probabilities; complete monotonicity; belief functions; Möbius transform},
   PAGES      = {169–178},
-  PUBLISHER  = {Springer},
-  SERIES     = {Advances in Intelligent and Soft Computing},
   TITLE      = {Completely monotone outer approximations of lower probabilities on finite possibility spaces},
-  VENUE      = {Beijing, PR China},
-  VOLUME     = {100},
-  YEAR       = {2011},
 }
 
 @XDATA{IPMU96,
@@ -806,7 +818,7 @@
 
 @PROCEEDINGS{-IPMU02b,
   DATE  = {2002},
-  TITLE = {Proceedings of the Ninth International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems: IPMU 2002},
+  TITLE = {Proceedings of the Ninth International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems},
   XDATA = {IPMU02},
 }
 
@@ -894,7 +906,7 @@
 }
 
 @XDATA{IPMU12,
-  EVENTDATE  = {2012-07},
+  EVENTDATE  = {2012-07-09/2012-07-13},
   EVENTTITLE = {IPMU 2012},
   VENUE      = {Catania, Italy},
 }
@@ -924,7 +936,7 @@
 }
 
 @XDATA{FLINS10,
-  EVENTDATE  = {2010-08},
+  EVENTDATE  = {2010-08-02/2010-08-04},
   EVENTTITLE = {FLINS 2010},
   VENUE      = {Chengdu, China},
 }
@@ -936,7 +948,6 @@
   PUBLISHER  = {World Scientific},
   SERIES     = {Proceedings Series on Computer Engineering and Information Science},
   TITLE      = {Computational intelligence: foundations and applications},
-  TITLEADDON = {Proceedings of the 9th International FLINS Conference},
   XDATA      = {FLINS10},
 }
 
@@ -964,7 +975,6 @@
   PUBLISHER  = {World Scientific},
   SERIES     = {Proceedings Series on Computer Engineering and Information Science},
   TITLE      = {Uncertainty Modeling in Knowledge Engineering and Decision Making},
-  TITLEADDON = {Proceedings of the 10th International FLINS Conference},
   VOLUME     = {7},
   XDATA      = {FLINS12},
 }
