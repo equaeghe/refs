@@ -423,6 +423,27 @@
   XDATA    = {MP},
 }
 
+@XDATA{TSMC,
+  ISSN         = {0018-9472},
+  JOURNALTITLE = {IEEE Transactions on Systems, Man and Cybernetics},
+  PUBLISHER    = {IEEE},
+  SHORTJOURNAL = {IEEE T. Syst. Man Cyb.},
+}
+
+@ARTICLE{Laskey-TSMC95j,
+  ABSTRACT = {When eliciting a probability model from experts, knowledge engineers may compare the results of the model with expert judgment on test scenarios, then adjust model parameters to bring the behavior of the model more in line with the experts intuition. This paper presents a methodology for analytic computation of sensitivity values in Bayesian network models. Sensitivity values are partial derivatives of output probabilities with respect to parameters being varied in the sensitivity analysis. They measure the impact of small changes in a network parameter on a target probability value or distribution. Sensitivity values can be used to focus knowledge elicitation effort on those parameters having the most impact on outputs of concern. Analytic sensitivity values are computed for an example and compared to sensitivity analysis by direct variation of parameters},
+  AUTHOR   = {K. B. Laskey},
+  DOI      = {10.1109/21.384252},
+  KEYWORDS = {Bayesian networks; knowledge elicitation; knowledge engineering; probability assessments; sensitivity analysis; symbolic reasoning; target probability value; uncertainty representation; Bayes methods; inference mechanisms; knowledge acquisition; probability; sensitivity analysis},
+  MONTH    = {06},
+  NUMBER   = {6},
+  PAGES    = {901–909},
+  TITLE    = {Sensitivity analysis for probability assessments in Bayesian networks},
+  VOLUME   = {25},
+  XDATA    = {TSMC},
+  YEAR     = {1995},
+}
+
 @XDATA{TKDA,
   JOURNALTITLE = {IEEE Transactions on Knowledge and Data Engineering},
   PUBLISHER    = {IEEE},
@@ -481,7 +502,7 @@
   VOL       = {5},
 }
 
-@incollection{Kohlas+Shenoy-AUDR01c,
+@INCOLLECTION{Kohlas+Shenoy-AUDR01c,
   AUTHOR   = {Jürg Kohlas and Prakash P. Shenoy},
   CROSSREF = {Kohlas+Moral-AUDR01b},
   DOI      = {10.1007/978-94-017-1737-3_2},
@@ -785,6 +806,22 @@
   EVENTTITLE   = {ISIPTA '11},
   ORGANIZATION = {SIPTA},
   VENUE        = {Innsbruck, Austria},
+}
+
+@PROCEEDINGS{Coolen+CFO-ISIPTA11b,
+  DATE      = {2011},
+  EDITOR    = {Frank P. A. Coolen and Gert de Cooman and Thomas Fetz and Michael Oberguggenberger},
+  PUBLISHER = {SIPTA},
+  TITLE     = {Proceedings of the Seventh International Symposium on Imprecise Probability: Theories and Applications},
+  XDATA     = {ISIPTA11},
+}
+
+@INPROCEEDINGS{Bock+Cooman-ISIPTA11p,
+  ABSTRACT = {We present an efficient exact algorithm for estimating state sequences from outputs (or observations) in imprecise hidden Markov models (iHMM), where both the uncertainty linking one state to the next, and that linking a state to its output, are represented using coherent lower previsions. The notion of independence we associate with the credal network representing the iHMM is that of epistemic irrelevance. We consider as best estimates for state sequences the (Walley–Sen) maximal sequences for the posterior joint state model (conditioned on the observed output sequence), associated with a gain function that is the indicator of the state sequence. This corresponds to (and generalises) finding the state sequence with the highest posterior probability in HMMs with precise transition and output probabilities (pHMMs). We argue that the computational complexity is at worst quadratic in the length of the Markov chain, cubic in the number of states, and essentially linear in the number of maximal state sequences. For binary iHMMs, we investigate experimentally how the number of maximal state sequences depends on the model parameters.},
+  AUTHOR   = {De Bock, Jasper and Gert de Cooman},
+  CROSSREF = {Coolen+CFO-ISIPTA11b},
+  PAGES    = {159–168},
+  TITLE    = {State sequence prediction in imprecise hidden Markov models},
 }
 
 @PROCEEDINGS{-ISIPTA11b,
@@ -1408,6 +1445,18 @@
   SERIES    = {Adaptive Computation and Machine Learning},
   TITLE     = {Probabilistic Graphical Models},
   YEAR      = {2009},
+}
+
+@INCOLLECTION{Gaag+RC-APGM07c,
+  AUTHOR    = {Linda C. van der Gaag and Silja Renooij and Veerle M. H. Coupé},
+  BOOKTITLE = {Advances in Probabilistic Graphical Models},
+  DOI       = {10.1007/978-3-540-68996-6_5},
+  FILE      = {files/Gaag+RC-APGM07c.pdf},
+  PAGES     = {103–124},
+  PUBLISHER = {Springer},
+  TITLE     = {Sensitivity analysis of probabilistic networks},
+  VOLUME    = {124},
+  YEAR      = {2007},
 }
 
 @REPORT{Walley+Bernard-CAF99r,
