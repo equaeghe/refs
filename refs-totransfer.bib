@@ -71,19 +71,6 @@
   YEAR      = {2007},
 }
 
-@ARTICLE{Antonucci-etal-2010-GL2U,
-  ABSTRACT     = {Credal networks generalize Bayesian networks by relaxing the requirement of precision of probabilities. Credal networks are considerably more expressive than Bayesian networks, but this makes belief updating NP-hard even on polytrees. We develop a new efficient algorithm for approximate belief updating in credal networks. The algorithm is based on an important representation result we prove for general credal networks: that any credal network can be equivalently reformulated as a credal network with binary variables; moreover, the transformation, which is considerably more complex than in the Bayesian case, can be implemented in polynomial time. The equivalent binary credal network is then updated by L2U, a loopy approximate algorithm for binary credal networks. Overall, we generalize L2U to non-binary credal networks, obtaining a scalable algorithm for the general case, which is approximate only because of its loopy nature. The accuracy of the inferences with respect to other state-of-the-art algorithms is evaluated by extensive numerical tests.},
-  AUTHOR       = {Alessandro Antonucci and Yi Sun and Cassio Polpo de Campos and Marco Zaffalon},
-  DOI          = {10.1016/j.ijar.2010.01.007},
-  JOURNALTITLE = {International Journal of Approximate Reasoning},
-  LOCALFILE    = {article/Antonucci-etal-2010-GL2U.pdf},
-  NUMBER       = {5},
-  PAGES        = {474–484},
-  TITLE        = {Generalized loopy 2U: a new algorithm for approximate inference in credal networks},
-  VOLUME       = {51},
-  YEAR         = {2010},
-}
-
 @ARTICLE{Antonucci-Zaffalon-2008,
   ABSTRACT     = {Credal networks are models that extend Bayesian nets to deal with imprecision in probability, and can actually be regarded as sets of Bayesian nets. Credal nets appear to be powerful means to represent and deal with many important and challenging problems in uncertain reasoning. We give examples to show that some of these problems can only be modeled by credal nets called non-separately specified. These, however, are still missing a graphical representation language and updating algorithms. The situation is quite the opposite with separately specified credal nets, which have been the subject of much study and algorithmic development. This paper gives two major contributions. First, it delivers a new graphical language to formulate any type of credal network, both separately and non-separately specified. Second, it shows that any non-separately specified net represented with the new language can be easily transformed into an equivalent separately specified net, defined over a larger domain. This result opens up a number of new outlooks and concrete outcomes: first of all, it immediately enables the existing algorithms for separately specified credal nets to be applied to non-separately specified ones. We explore this possibility for the 2U algorithm: an algorithm for exact updating of singly connected credal nets, which is extended by our results to a class of non-separately specified models. We also consider the problem of inference on Bayesian networks, when the reason that prevents some of the variables from being observed is unknown. The problem is first reformulated in the new graphical language, and then mapped into an equivalent problem on a separately specified net. This provides a first algorithmic approach to this kind of inference, which is also proved to be NP-hard by similar transformations based on our formalism.},
   AUTHOR       = {Alessandro Antonucci and Marco Zaffalon},
@@ -1076,21 +1063,6 @@
   URL          = {http://decsai.ugr.es/~lci/journal-papers-pdf/ijuf94.pdf},
   VOLUME       = {2},
   YEAR         = {1994},
-}
-
-@ARTICLE{Cano-etal-2007-cn,
-  ABSTRACT     = {This paper proposes two new algorithms for inference in credal networks. These algorithms enable probability intervals to be obtained for the states of a given query variable. The first algorithm is approximate and uses the hill-climbing technique in the Shenoy-Shafer architecture to propagate in join trees ; the second is exact and is a modification of Rocha and Cozman's branch-and-bound algorithm, but applied to general directed acyclic graphs.},
-  AUTHOR       = {Andrés Cano and Manuel Gómez and Serafín Moral and Joaquín Abellán},
-  DOI          = {10.1016/j.ijar.2006.07.020},
-  ISSN         = {0888-613X},
-  JOURNALTITLE = {International Journal of Approximate Reasoning},
-  KEYWORDS     = {Bayesian networks; branch-and-bound algorithms; credal network; hill-climbing; probability intervals; strong independence},
-  LOCALFILE    = {article/Cano-etal-2007-cn.pdf},
-  NUMBER       = {3},
-  PAGES        = {261–280},
-  TITLE        = {Hill-climbing and branch-and-bound algorithms for exact and approximate inference in credal networks},
-  VOLUME       = {44},
-  YEAR         = {2007},
 }
 
 @ARTICLE{Capotorti-Galli-Vantaggi-2003,
@@ -2357,15 +2329,6 @@
   YEAR      = {1995},
 }
 
-@INPROCEEDINGS{Druzdzel-Henrion-1993,
-  AUTHOR    = {Marek J. Druzdzel and M. Henrion},
-  BOOKTITLE = {Proceedings of the Eleventh National Conference on Artificial Intelligence},
-  PAGES     = {548 – 553},
-  PUBLISHER = {AAAI Press, Menlo Park, California},
-  TITLE     = {Efficient Reasoning in Qualitative Probabilistic Networks},
-  YEAR      = {1993},
-}
-
 @ARTICLE{Dubois-2006,
   ABSTRACT     = {Numerical possibility distributions can encode special convex families of probability measures. The connection between possibility theory and probability theory is potentially fruitful in the scope of statistical reasoning when uncertainty due to variability of observations should be distinguished from uncertainty due to incomplete information. This paper proposes an overview of numerical possibility theory. Its aim is to show that some notions in statistics are naturally interpreted in the language of this theory. First, probabilistic inequalites (like Chebychev's) offer a natural setting for devising possibility distributions from poor probabilistic information. Moreover, likelihood functions obey the laws of possibility theory when no prior probability is available. Possibility distributions also generalize the notion of confidence or prediction intervals, shedding some light on the role of the mode of asymmetric probability densities in the derivation of maximally informative interval substitutes of probabilistic information. Finally, the simulation of fuzzy sets comes down to selecting a probabilistic representation of a possibility distribution, which coincides with the Shapley value of the corresponding consonant capacity. This selection process is in agreement with Laplace indifference principle and is closely connected with the mean interval of a fuzzy interval. It sheds light on the “defuzzification” process in fuzzy set theory and provides a natural definition of a subjective possibility distribution that sticks to the Bayesian framework of exchangeable bets. Potential applications to risk assessment are pointed out.},
   AUTHOR       = {Didier Dubois},
@@ -3286,31 +3249,6 @@
   TITLE     = {Experiences with eliciting probabilities from multiple experts},
   VOLUME    = {299},
   YEAR      = {2012},
-}
-
-@INPROCEEDINGS{VanderGaag-etal-2010-BNAIC,
-  AUTHOR    = {Linda C. van der Gaag and Silja Renooij and Hermi J. M. Schijf and Armin R. W. Elbers and Willie L. A. Loeffen},
-  BOOKTITLE = {BNAIC 2010: Proceedings of the 22nd Benelux Conference on Artificial Intelligence},
-  LOCALFILE = {inproceedings/VanderGaag-etal-2010-BNAIC.pdf},
-  TITLE     = {Probability assessments from multiple experts: qualitative information is more robust},
-  VENUE     = {Luxembourg},
-  YEAR      = {2010},
-}
-
-@INPROCEEDINGS{VanderGaag-etal-2009-ECSQUARU,
-  AUTHOR    = {Linda C. van der Gaag and Silja Renooij and Wilma Steeneveld and Henk Hogeveen},
-  BOOKTITLE = {Symbolic and Quantitative Approaches to Reasoning with Uncertainty},
-  DOI       = {10.1007/978-3-642-02906-6_45},
-  EDITOR    = {Claudio Sossai and Gaetano Chemello},
-  ISBN      = {978-3-642-02905-9},
-  LOCALFILE = {inproceedings/VanderGaag-etal-2009-ECSQUARU.pdf},
-  NOTE      = {Proceedings of ECSQUARU 2009},
-  PAGES     = {518–529},
-  PUBLISHER = {Springer},
-  SERIES    = {Lecture Notes in Computer Science},
-  TITLE     = {When in doubt ... be indecisive},
-  VOLUME    = {5590},
-  YEAR      = {2009},
 }
 
 @ARTICLE{VanderGaag-etal-2002,
@@ -5426,20 +5364,6 @@
   YEAR        = {2008},
 }
 
-@ARTICLE{Miranda-DeCooman-2007-margext,
-  ABSTRACT     = {We generalise Walley's Marginal Extension Theorem to the case of any finite number of conditional lower previsions. Unlike the procedure of natural extension, our marginal extension always provides the smallest (most conservative) coherent extensions. We show that they can also be calculated as lower envelopes of marginal extensions of conditional linear (precise) previsions. Finally, we use our version of the theorem to study the so-called forward irrelevant product and forward irrelevant natural extension of a number of marginal lower previsions.},
-  AUTHOR       = {Enrique Miranda and Gert de Cooman},
-  DOI          = {10.1016/j.ijar.2006.12.009},
-  JOURNALTITLE = {International Journal of Approximate Reasoning},
-  KEYWORDS     = {Coherence; Epistemic irrelevance; Forward irrelevance; Forward irrelevant natural extension; Forward irrelevant product; Imprecise probabilities; Lower previsions; Marginal extension; Natural extension},
-  LOCALFILE    = {article/Miranda-DeCooman-2007-margext.pdf},
-  NUMBER       = {1},
-  PAGES        = {188–225},
-  TITLE        = {Marginal extension in the theory of coherent lower previsions},
-  VOLUME       = {46},
-  YEAR         = {2007},
-}
-
 @ARTICLE{Miranda-DeCooman-2003,
   ABSTRACT     = {Numerical possibility measures can be interpreted as systems of upper betting rates for events. As such, they have a special part in the unifying behavioural theory of imprecise probabilities, proposed by Walley. On this interpretation, they should arguably satisfy certain rationality, or consistency, requirements, such as avoiding sure loss and coherence. Using a version of Walley's notion of epistemic independence suitable for possibility measures, we study in detail what these rationality requirements tell us about the construction of independent product possibility measures from given marginals, and we obtain necessary and sufficient conditions for a product to satisfy these criteria. In particular, we show that the well-known minimum and product rules for forming independent joint distributions from marginal ones, are only coherent when at least one of these distributions assume just the values zero and one.},
   ANNOTATION   = {reprint},
@@ -7545,19 +7469,6 @@
   TITLE        = {The theory of interval-probability as a unifying concept for uncertainty},
   VOLUME       = {24},
   YEAR         = {2000},
-}
-
-@ARTICLE{Wellman-1990-QPN,
-  ABSTRACT     = {Graphical representations for probabilistic relationships have recently received considerable attention in AI. Qualitative probabilistic networks abstract from the usual numeric representations by encoding only qualitative relationships, which are inequality constraints on the joint probability distribution over the variables. Although these constraints are insufficient to determine probabilities uniquely, they are designed to justify the deduction of a class of relative likelihood conclusions that imply useful decision-making properties. Two types of qualitative relationship are defined, each a probabilistic form of monotonicity constraint over a group of variables. Qualitative influences describe the direction of the relationship between two variables. Qualitative synergies describe interactions among influences. The probabilistic definitions chosen justify sound and efficient inference procedures based on graphical manipulations of the network. These procedures answer queries about qualitative relationships among variables separated in the network and determine structural properties of optimal assignments to decision variables.},
-  AUTHOR       = {Michael P. Wellman},
-  DOI          = {10.1016/0004-3702(90)90026-V},
-  ISSN         = {0004-3702},
-  JOURNALTITLE = {Artificial Intelligence},
-  NUMBER       = {3},
-  PAGES        = {257–303},
-  TITLE        = {Fundamental concepts of qualitative probabilistic networks},
-  VOLUME       = {44},
-  YEAR         = {1990},
 }
 
 @BOOK{Whittle-1992,
