@@ -204,8 +204,21 @@
   NUMBER   = {4},
   PAGES    = {666–679},
   TITLE    = {Credal networks for military identification problems},
-  XDATA    = {IJAR},
   VOLUME   = {50},
+  XDATA    = {IJAR},
+}
+
+@article{Kouwen+RS-IJAR09j,
+  ABSTRACT = {Qualitative probabilistic networks (QPNs) are basically qualitative derivations of Bayesian belief networks. Originally, \{QPNs\} were designed to improve the speed of the construction and calculation of these networks, at the cost of specificity of the result. The formalism can also be used to facilitate cognitive mapping by means of inference in sign-based causal diagrams. Whatever the type of application, any computer based use of \{QPNs\} requires an algorithm capable of propagating information throughout the networks. Such an algorithm was developed in the 1990s. This polynomial time sign-propagation algorithm is explicitly or implicitly used in most existing \{QPN\} studies. This paper firstly shows that two types of undesired results may occur with the original sign-propagation algorithm: the results can be (1) less specific than possible at the given level of abstraction, or, more seriously (2) incorrect. Secondly, the paper identifies the causes underlying these problems. Thirdly, this paper presents an adapted sign-propagation algorithm. The worst-case running time of the adapted algorithm is still polynomial in the number of arrows. The results of the new algorithm have been compared with those of the original algorithm by applying both algorithms to a real-life constructed cognitive map. It is shown that the problems of the original algorithm are indeed prevented with the adapted algorithm.},
+  AUTHOR   = {Frank van Kouwen and Silja Renooij and Paul Schot},
+  DATE     = {2009-05},
+  DOI      = {10.1016/j.ijar.2008.12.001},
+  KEYWORDS = {Qualitative probabilistic network; Inference; Cognitive mapping},
+  NUMBER   = {5},
+  PAGES    = {708--720},
+  TITLE    = {Inference in qualitative probabilistic networks revisited},
+  VOLUME   = {50},
+  XDATA    = {IJAR},
 }
 
 @ARTICLE{Antonucci+SCZ-IJAR10j,
@@ -235,20 +248,6 @@
   XDATA    = {IJAR},
 }
 
-@ARTICLE{Renooij-IJAR12j,
-  ABSTRACT   = {Sensitivity analysis in hidden Markov models (HMMs) is usually performed by means of a perturbation analysis where a small change is applied to the model parameters, upon which the output of interest is re-computed. Recently it was shown that a simple mathematical function describes the relation between HMM parameters and an output probability of interest; this result was established by representing the HMM as a (dynamic) Bayesian network. To determine this sensitivity function, it was suggested to employ existing Bayesian network algorithms. Up till now, however, no special purpose algorithms for establishing sensitivity functions for HMMs existed. In this paper we discuss the drawbacks of computing HMM sensitivity functions, building only upon existing algorithms. We then present a new and efficient algorithm, which is specially tailored for determining sensitivity functions in HMMs.},
-  AUTHOR     = {Silja Renooij},
-  DATE       = {2012-12},
-  DOI        = {10.1016/j.ijar.2012.06.003},
-  ISSUETITLE = {Fifth European Workshop on Probabilistic Graphical Models (PGM-2010)},
-  KEYWORDS   = {Sensitivity analysis; Bayesian networks; Hidden Markov models; Sensitivity function},
-  NUMBER     = {9},
-  PAGES      = {1397–1414},
-  TITLE      = {Efficient sensitivity analysis in hidden markov models},
-  VOLUME     = {53},
-  XDATA      = {IJAR},
-}
-
 @ARTICLE{Cooman+Quaeghebeur-IJAR12j,
   ABSTRACT   = {Sets of desirable gambles constitute a quite general type of uncertainty model with an interesting geometrical interpretation. We give a general discussion of such models and their rationality criteria. We study exchangeability assessments for them, and prove counterparts of de Finetti's finite and infinite representation theorems. We show that the finite representation in terms of count vectors has a very nice geometrical interpretation, and that the representation in terms of frequency vectors is tied up with multivariate Bernstein (basis) polynomials. We also lay bare the relationships between the representations of updated exchangeable models, and discuss conservative inference (natural extension) under exchangeability and the extension of exchangeable sequences.},
   AUTHOR     = {Gert de Cooman and Erik Quaeghebeur},
@@ -262,6 +261,20 @@
   TITLE      = {Exchangeability and sets of desirable gambles},
   VOLUME     = {53},
   YEAR       = {2012},
+  XDATA      = {IJAR},
+}
+
+@ARTICLE{Renooij-IJAR12j,
+  ABSTRACT   = {Sensitivity analysis in hidden Markov models (HMMs) is usually performed by means of a perturbation analysis where a small change is applied to the model parameters, upon which the output of interest is re-computed. Recently it was shown that a simple mathematical function describes the relation between HMM parameters and an output probability of interest; this result was established by representing the HMM as a (dynamic) Bayesian network. To determine this sensitivity function, it was suggested to employ existing Bayesian network algorithms. Up till now, however, no special purpose algorithms for establishing sensitivity functions for HMMs existed. In this paper we discuss the drawbacks of computing HMM sensitivity functions, building only upon existing algorithms. We then present a new and efficient algorithm, which is specially tailored for determining sensitivity functions in HMMs.},
+  AUTHOR     = {Silja Renooij},
+  DATE       = {2012-12},
+  DOI        = {10.1016/j.ijar.2012.06.003},
+  ISSUETITLE = {Fifth European Workshop on Probabilistic Graphical Models (PGM-2010)},
+  KEYWORDS   = {Sensitivity analysis; Bayesian networks; Hidden Markov models; Sensitivity function},
+  NUMBER     = {9},
+  PAGES      = {1397–1414},
+  TITLE      = {Efficient sensitivity analysis in hidden markov models},
+  VOLUME     = {53},
   XDATA      = {IJAR},
 }
 
@@ -305,6 +318,19 @@
   VOLUME   = {120},
   XDATA    = {AIJ},
   YEAR     = {2000},
+}
+
+@ARTICLE{Renooij+Gaag-AIJ08j,
+  ABSTRACT = {Qualitative probabilistic networks were designed to overcome, to at least some extent, the quantification problem known to probabilistic networks. Qualitative networks abstract from the numerical probabilities of their quantitative counterparts by using signs to summarise the probabilistic influences between their variables. One of the major drawbacks of these qualitative abstractions, however, is the coarse level of representation detail that does not provide for indicating strengths of influences. As a result, the trade-offs modelled in a network remain unresolved upon inference. We present an enhanced formalism of qualitative probabilistic networks to provide for a finer level of representation detail. An enhanced qualitative probabilistic network differs from a basic qualitative network in that it distinguishes between strong and weak influences. Now, if a strong influence is combined, upon inference, with a conflicting weak influence, the sign of the net influence may be readily determined. Enhanced qualitative networks are purely qualitative in nature, as basic qualitative networks are, yet allow for resolving some trade-offs upon inference.},
+  AUTHOR   = {Silja Renooij and Linda C. van der Gaag},
+  DOI      = {10.1016/j.artint.2008.04.001},
+  KEYWORDS = {Probabilistic reasoning; Qualitative reasoning; Trade-off resolution},
+  NUMBER   = {12-13},
+  PAGES    = {1470–1494},
+  TITLE    = {Enhanced qualitative probabilistic networks for resolving trade-offs},
+  VOLUME   = {172},
+  XDATA    = {AIJ},
+  YEAR     = {2008},
 }
 
 @ARTICLE{Cooman+MZ-AIJ11j,
