@@ -52,9 +52,38 @@
 }
 
 @XDATA{JRSSB,
+  ISSN         = {0035-9246},
   JOURNALTITLE = {Journal of the Royal Statistical Society. Series B (Methodological)},
-  PUBLISHER    = {Wiley for the Royal Statistical Society},
   SHORTJOURNAL = {J. R. Stat. Soc. B},
+}
+
+@ARTICLE{Smith-JRSSB61j,
+  ABSTRACT     = {It is suggested that the strength of a person's beliefs may be tested by finding at what odds he is prepared to bet on them. This leads to a system of numerical "medial personal probabilities" obeying the classical laws of probability. However, these do not have precisely defined values, but are contained within specified intervals. The appropriate method of inference is Bayes's Theorem. This leads to generally accepted statistical procedures in large samples, except that the "weight of evidence" and not significance level is the measure of conviction in a significance test. Under very general conditions decisions are made by maximizing expected utility.},
+  AUTHOR       = {Cedric A. B. Smith},
+  EPRINT       = {2983842},
+  EPRINTTYPE   = {jstor},
+  FILE         = {files/Smith-JRSSB61j.pdf},
+  NUMBER       = {1},
+  PAGES        = {1–37},
+  TITLE        = {Consistency in statistical inference and decision},
+  VOLUME       = {23},
+  XDATA        = {JRSSB},
+  YEAR         = {1961},
+}
+
+@ARTICLE{Dempster-JRSSB68j,
+  ABSTRACT     = {Procedures of statistical inference are described which generalize Bayesian inference in specific ways. Probability is used in such a way that in general only bounds may be placed on the probabilities of given events, and probability systems of this kind are suggested both for sample information and for prior information. These systems are then combined using a specified rule. Illustrations are given for inferences about trinomial probabilities, and for inferences about a monotone sequence of binomial p\_i. Finally, some comments are made on the general class of models which produce upper and lower probabilities, and on the specific models which underlie the suggested inference procedures.},
+  ANNOTATION   = {with discussion},
+  AUTHOR       = {Arthur P. Dempster},
+  EPRINT       = {2984504},
+  EPRINTTYPE   = {jstor},
+  FILE         = {files/Dempster-JRSSB68j.pdf},
+  NUMBER       = {2},
+  PAGES        = {205–247},
+  TITLE        = {A generalization of Bayesian inference},
+  VOLUME       = {30},
+  XDATA        = {JRSSB},
+  YEAR         = {1968},
 }
 
 @ARTICLE{Lauritzen+Spiegelhalter-JRSSB88j,
@@ -437,7 +466,7 @@
   DOI      = {10.1016/j.ijar.2006.07.019},
   KEYWORDS = {Coherence; Conditional prevision; Imprecise probabilities; de Finetti},
   FILE     = {files/Williams-IJAR07j.pdf},
-  NOTE     = {Published version of \cite{Williams-1975}},
+  NOTE     = {Published version of \parencite{Williams-UoS75r}},
   PAGES    = {366–383},
   TITLE    = {Notes on conditional previsions},
   VOLUME   = {44},
@@ -2947,15 +2976,25 @@ PUBLISHER    = {Springer},
   YEAR       = {2010},
 }
 
+@PROCEEDINGS{Przełęcki+SW-FMMES76b,
+  EVENTTITLE = {Conference for Formal Methods in the Methodology of Empirical Sciences},
+  EVENTDATE  = {1974-06-17/1974-06-21},
+  VENUE      = {Warsaw, Poland},
+  TITLE      = {Formal Methods in the Methodology of Empirical Sciences},
+  EDITOR     = {Przełęcki, Marian and Szaniawski, Klemens and Wójcicki, Ryszard and Malinowski, Grzegorz},
+  PUBLISHER  = {D. Reidel Publishing Company and Ossolineum Publishing company},
+  SERIES     = {Synthese Library},
+  VOLUME     = {103},
+  YEAR       = {1976},
+}
+
 @INPROCEEDINGS{Williams-FMMES74p,
   AUTHOR    = {Peter M. Williams},
-  BOOKTITLE = {Proceedings of the conference for formal methods in the methodology of empirical sciences},
-  EDITOR    = {Marian Przełęcki and Klemens Szaniawski and Ryszard Wójcicki},
+  CROSSREF  = {Przełęcki+SW-FMMES76b},
+  DOI       = {10.1007/978-94-010-1135-8_16},
   FILE      = {files/Williams-FMMES74p.pdf},
   PAGES     = {229–246},
-  PUBLISHER = {D. Reidel Publishing Company and Ossolineum Publishing company},
   TITLE     = {Indeterminate probabilities},
-  YEAR      = {1974},
 }
 
 @INPROCEEDINGS{Druzdzel+Henrion-AAAI93p,
@@ -3189,6 +3228,23 @@ PUBLISHER    = {Springer},
   VOLUME    = {VI},
 }
 
+@PROCEEDINGS{Nagel+ST-LMPS62b,
+  DATE       = {1962},
+  EDITOR     = {Ernest Nagel and Patrick Suppes and Alfred Tarski},
+  EVENTDATE  = {1960},
+  EVENTTITLE = {International Congress on Logic, Methodology and Philosophy of Science},
+  PUBLISHER  = {Stanford University Press},
+  TITLE      = {Logic, Methodology and Philosophy of Science},
+}
+
+@INPROCEEDINGS{Good-LMPS62p,
+  AUTHOR   = {Irving John Good},
+  CROSSREF = {Nagel+ST-LMPS62b},
+  PAGES    = {319–329},
+  TITLE    = {Subjective Probability as the Measure of a non-Measurable Set},
+}
+
+
 @PROCEEDINGS{-ICLMPS75b,
   TITLE     = {Fifth International Congress of Logic, Methodology and Philosophy of Science},
   DATE      = {1975},
@@ -3241,6 +3297,22 @@ PUBLISHER    = {Springer},
   TITLE = {Experts in Uncertainty},
   SUBTITLE = {Opinion and Subjective Probability in Science},
   YEAR = {1991},
+}
+
+@BOOK{Finetti-TDP70b,
+  AUTHOR    = {Bruno de Finetti},
+  NOTE      = {English translation: \parencite{Finetti-TOP75b}},
+  PUBLISHER = {Giulio Einaudi},
+  TITLE     = {Teoria Delle Probabilità},
+  YEAR      = {1970},
+}
+
+@BOOK{Finetti-TOP75b,
+  AUTHOR    = {Bruno de Finetti},
+  DATE      = {1974/1975},
+  NOTE      = {Two volumes; translation of \parencite{Finetti-TDP70b}},
+  PUBLISHER = {John Wiley \& Sons},
+  TITLE     = {Theory of Probability},
 }
 
 @BOOK{Shafer-MTE76b,
@@ -3371,6 +3443,16 @@ PUBLISHER    = {Springer},
   TITLE     = {Upper Bounds for MaxSat: Further Improved},
   VOLUME    = {1741},
   YEAR      = {1999},
+}
+
+@REPORT{Williams-UoS75r,
+  AUTHOR      = {Peter M. Williams},
+  DATE        = {1975-02},
+  INSTITUTION = {School of Mathematical and Physical Sciences, University of Sussex},
+  FILE        = {files/Williams-UoS75r.pdf},
+  NOTE        = {Published as \parencite{Williams-IJAR07j}},
+  TITLE       = {Notes on conditional previsions},
+  TYPE        = {techreport},
 }
 
 @REPORT{Walley+Bernard-CAF99r,
