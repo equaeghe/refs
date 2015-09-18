@@ -989,6 +989,34 @@
   SHORTJOURNAL = {J. Artif. Intell. Res.},
 }
 
+@ARTICLE{Lubin+JCLSP-JAIR08j,
+  ABSTRACT = {We present the design and analysis of the first fully expressive, iterative combinatorial exchange (ICE). The exchange incorporates a tree-based bidding language (TBBL) that is concise and expressive for CEs. Bidders specify lower and upper bounds in TBBL on their value for different trades and refine these bounds across rounds. These bounds allow price discovery and useful preference elicitation in early rounds, and allow termination with an efficient trade despite partial information on bidder valuations. All computation in the exchange is carefully optimized to exploit the structure of the bid-trees and to avoid enumerating trades. A proxied interpretation of a revealed-preference activity rule, coupled with simple linear prices, ensures progress across rounds. The exchange is fully implemented, and we give results demonstrating several aspects of its scalability and economic properties with simulated bidding strategies.},
+  AUTHOR   = {B. Lubin and A. I. Juda and R. Cavallo and S. Lahaie and J. Shneidman and D. C. Parkes},
+  DOI      = {10.1613/jair.2440},
+  FILE     = {files/Lubin+JCLSP-JAIR08j.pdf},
+  PAGES    = {33–77},
+  TITLE    = {ICE: An expressive iterative combinatorial exchange},
+  VOLUME   = {33},
+  XDATA    = {JAIR},
+  YEAR     = {2008},
+}
+
+@ARTICLE{Jurca+Faltings-JAIR09j,
+  ABSTRACT = {We consider schemes for obtaining truthful reports on a common but hidden signal from large groups of rational, self-interested agents. One example are online feedback mechanisms, where users provide observations about the quality of a product or service so that other users can have an accurate idea of what quality they can expect. However, (i) providing such feedback is costly, and (ii) there are many motivations for providing incorrect feedback.
+
+  Both problems can be addressed by reward schemes which (i) cover the cost of obtaining and reporting feedback, and (ii) maximize the expected reward of a rational agent who reports truthfully. We address the design of such incentive-compatible rewards for feedback generated in environments with pure adverse selection. Here, the correlation between the true knowledge of an agent and her beliefs regarding the likelihoods of reports of other agents can be exploited to make honest reporting a Nash equilibrium.
+
+  In this paper we extend existing methods for designing incentive-compatible rewards by also considering collusion. We analyze different scenarios, where, for example, some or all of the agents collude. For each scenario we investigate whether a collusion-resistant, incentive-compatible reward scheme exists, and use automated mechanism design to specify an algorithm for deriving an efficient reward mechanism.},
+  AUTHOR   = {R. Jurca and B. Faltings},
+  DOI      = {10.1613/jair.2621},
+  FILE     = {files/Jurca+Faltings-JAIR09j.pdf},
+  PAGES    = {209–253},
+  TITLE    = {Mechanisms for Making Crowds Truthful},
+  VOLUME   = {34},
+  XDATA    = {JAIR},
+  YEAR     = {2009},
+}
+
 @ARTICLE{Cooman+Miranda-JAIR12j,
   ABSTRACT = {The results in this paper add useful tools to the theory of sets of desirable gambles, a growing toolbox for reasoning with partial probability assessments. We investigate how to combine a number of marginal coherent sets of desirable gambles into a joint set using the properties of epistemic irrelevance and independence. We provide formulas for the smallest such joint, called their independent natural extension, and study its main properties. The independent natural extension of maximal coherent sets of desirable gambles allows us to define the strong product of sets of desirable gambles. Finally, we explore an easy way to generalise these results to also apply for the conditional versions of epistemic irrelevance and independence. Having such a set of tools that are easily implemented in computer programs is clearly beneficial to fields, like AI, with a clear interest in coherent reasoning under uncertainty using general and robust uncertainty models that require no full specification.},
   AUTHOR   = {Gert de Cooman and Enrique Miranda},
@@ -999,6 +1027,34 @@
   VOLUME   = {45},
   XDATA    = {JAIR},
   YEAR     = {2012},
+}
+
+@ARTICLE{Greco+Scarcello-JAIR14j,
+  ABSTRACT = {Mechanism design is considered in the context of fair allocations of indivisible goods with monetary compensation, by focusing on problems where agents' declarations on allocated goods can be verified before payments are performed. A setting is considered where verification might be subject to errors, so that payments have to be awarded under the presumption of innocence, as incorrect declared values do not necessarily mean manipulation attempts by the agents. Within this setting, a mechanism is designed that is shown to be truthful, efficient, and budget-balanced. Moreover, agents' utilities are fairly determined by the Shapley value of suitable coalitional games, and enjoy highly desirable properties such as equal treatment of equals, envy-freeness, and a stronger one called individual-optimality. In particular, the latter property guarantees that, for every agent, her/his utility is the maximum possible one over any alternative optimal allocation.
+
+  The computational complexity of the proposed mechanism is also studied. It turns out that it is \#P-complete so that, to deal with applications with many agents involved, two polynomial-time randomized variants are also proposed: one that is still truthful and efficient, and which is approximately budget-balanced with high probability, and another one that is truthful in expectation, while still budget-balanced and efficient.},
+  AUTHOR   = {G. Greco and F. Scarcello},
+  DOI      = {10.1613/jair.4224},
+  FILE     = {files/Greco+Scarcello-JAIR14j.pdf},
+  PAGES    = {403–403},
+  TITLE    = {Mechanisms for fair allocation problems: no-punishment payment rules in verifiable settings},
+  VOLUME   = {49},
+  XDATA    = {JAIR},
+  YEAR     = {2014},
+}
+
+@ARTICLE{Cooman+BD-JAIR15j,
+  ABSTRACT = {Coherent reasoning under uncertainty can be represented in a very general manner by coherent sets of desirable gambles. In a context that does not allow for indecision, this leads to an approach that is mathematically equivalent to working with coherent conditional probabilities. If we do allow for indecision, this leads to a more general foundation for coherent (imprecise-)probabilistic inference. In this framework, and for a given finite category set, coherent predictive inference under exchangeability can be represented using Bernstein coherent cones of multivariate polynomials on the simplex generated by this category set. This is a powerful generalisation of de Finetti's Representation Theorem allowing for both imprecision and indecision.
+
+  We define an inference system as a map that associates a Bernstein coherent cone of polynomials with every finite category set. Many inference principles encountered in the literature can then be interpreted, and represented mathematically, as restrictions on such maps. We discuss, as particular examples, two important inference principles: representation insensitivity—a strengthened version of Walley's representation invariance—and specificity. We show that there is an infinity of inference systems that satisfy these two principles, amongst which we discuss in particular the skeptically cautious inference system, the inference systems corresponding to (a modified version of) Walley and Bernard's Imprecise Dirichlet Multinomial Models (IDMM), the skeptical IDMM inference systems, and the Haldane inference system. We also prove that the latter produces the same posterior inferences as would be obtained using Haldane's improper prior, implying that there is an infinity of proper priors that produce the same coherent posterior inferences as Haldane's improper one. Finally, we impose an additional inference principle that allows us to characterise uniquely the immediate predictions for the IDMM inference systems.},
+  AUTHOR   = {Gert de Cooman and De Bock, Jasper and Márcio Alves Diniz},
+  DOI      = {10.1613/jair.4490},
+  FILE     = {files/Cooman+BD-JAIR15j.pdf},
+  PAGES    = {1–95},
+  TITLE    = {Coherent predictive inference under exchangeability with imprecise probabilities},
+  VOLUME   = {52},
+  XDATA    = {JAIR},
+  YEAR     = {2015},
 }
 
 
