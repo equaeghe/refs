@@ -4,4 +4,4 @@ refs
 My personal biblatex bibliography
 
 
-*Very much a work in progress...*
+*Not as convenient as I hoped, so I'm shutting this down…*
